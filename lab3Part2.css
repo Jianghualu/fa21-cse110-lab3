@@ -1,0 +1,86 @@
+/*This file is practice how to using css for CSE110 fall 21 lab 3 part2*/
+
+body{
+    background-color: blanchedalmond;  /*apply colors to HTML*/
+}
+h1{
+    color: rgb(0,0,0);
+    
+
+}
+h2{
+    color: #000
+}
+h3{
+    color:teal;
+}
+.intro{
+    border-style: dotted;
+    border-color: cadetblue;
+    border-width: 0.25cm;
+    border-radius: 1mm;
+    text-decoration: underline orange;
+    margin-top: 0.1in;
+    margin-bottom: 0.1in;
+    margin-left: 0.5mm;
+    margin-right: 0.5mm;
+    padding-left: 1em;
+    padding-right: 1em ;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    height: 1.5in;
+    width: 5in;
+}
+header{
+    text-align: center;
+
+}
+.date{
+    text-align: end;
+    text-decoration: line-through;
+}
+.newdate{
+    text-align: right;
+}
+#job{
+    color:rgb(88,40,23);
+    border-style: dashed;
+    border-color: rgb(170,80,66);
+    border-width: 0.25cm;
+    border-radius: 1mm;
+    margin: 0.1rem 0.5rem 0.1rem 0.5rem;
+    padding: 1rem 1rem 1rem 1rem;
+    height: 0.3in;
+    width: 2in;
+    max-width: 3in;
+    min-width: 1in;
+}    
+.attendance{
+    margin: auto;
+    position: static;
+    border: 3px dashed goldenrod;
+    width: 3in;
+
+
+}
+.recording{
+    display:inline-block;
+    padding: 5mm 5mm 5mm 5mm;
+    color: red;
+}
+.quote{
+    display:inline;
+    color:salmon;
+}
+.agenda{
+    position: relative;
+    left: 5px;
+    border: solid antiquewhite;
+
+}
+a:hover{
+    background-color:yellow;
+}
+a:active{
+    color:peru;
+}

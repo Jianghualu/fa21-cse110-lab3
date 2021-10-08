@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML practice for Sarah</title>
     <link rel="icon" href="photo_for_lab2.jpg">
+    <link rel="stylesheet" href="lab3Part2.css">
 </head>
 <body>
     <header>
         <h1>Weekly Meeting Notes</h1>
-        <p>October 1st, 2021</p>
+        <p class="date">October 1st, 2021</p>
+        <p class="newdate">October 8th, 2021</p>
     </header>
     <nav>
         <a href="#agenda">Agenda</a>
@@ -22,23 +24,28 @@
     <hr>
     <main>
         <section>
-            <h3>Attendance List:</h3>
-                <span>Sarah</span>
-                <span>Johnson</span>
-                <span>Ben</span>
-                <span>Lydia</span>
-            <h3>Absent:</h3>
-                <span>Jack</span>
-                <span>Cameli</span>
+            <div class= "attendance">
+                <h3>Attendance List:</h3>
+                    <span>Sarah</span>
+                    <span>Johnson</span>
+                    <span>Ben</span>
+                    <span>Lydia</span>
+                <h3>Absent:</h3>
+                    <span>Jack</span>
+                    <span>Cameli</span>
+
+            </div>
         </section>
         <section>
-            <h2 id="agenda">Agenda</h2>
-        <ul>
-            <li>Getting to know people</li>
-            <li>Questions</li>
-            <li>Job Opportunities!</li>
-            <li>Group Photo</li>
-        </ul>
+            <div class= "agenda" >
+                <h2 id="agenda">Agenda</h2>
+                    <ul>
+                        <li>Getting to know people</li>
+                    <li>Questions</li>
+                    <li>Job Opportunities!</li>
+                    <li>Group Photo</li>
+                </ul>
+            </div>
         </section>
         <div class="intro">
             <h2>Getting to Know you</h2>
@@ -69,13 +76,13 @@
             <details>
                 <summary>Before next Meeting</summary>
                 <p>Bring at least <strong>two ideas</strong> about the project, and give a brief description of it.</p>
-                <p><b>Think outside of the box.</b></p>
+                <p class="quote"><b>Think outside of the box.</b></p>
             </details>
         </section>
         <section>
             <h2>Group Photo time!</h2>
             <img src="photo_for_lab2.jpg" alt="group_photo">
-            <p>Meeting recording:</p>
+            <p class="recording">Meeting recording:</p>
             <audio controls>
                 <source src="audio_only.mp3" type="audio/mp3">      
             </audio>
