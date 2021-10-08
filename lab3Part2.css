@@ -3,10 +3,9 @@
 body{
     background-color: blanchedalmond;  /*apply colors to HTML*/
 }
+
 h1{
     color: rgb(0,0,0);
-    
-
 }
 h2{
     color: #000
@@ -60,8 +59,6 @@ header{
     position: static;
     border: 3px dashed goldenrod;
     width: 3in;
-
-
 }
 .recording{
     display:inline-block;
@@ -71,16 +68,23 @@ header{
 .quote{
     display:inline;
     color:salmon;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .agenda{
     position: relative;
     left: 5px;
     border: solid antiquewhite;
-
+    display: flex;
 }
 a:hover{
     background-color:yellow;
 }
 a:active{
     color:peru;
+}
+@media screen and (max-width: 600px){
+    div.agenda{
+        display: none;
+    }
+
 }
