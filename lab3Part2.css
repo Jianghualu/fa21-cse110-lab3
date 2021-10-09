@@ -55,7 +55,6 @@ header{
 .newdate{
     text-align: right;
 }
-
 /*ID Selector*/
 #job{
     color:rgb(88,40,23);
@@ -86,7 +85,6 @@ header{
     color:salmon;
     font-family: 'Roboto Condensed', sans-serif;
 }
-
 .game{
     display:grid;
     grid-row-gap: 10px;
@@ -101,13 +99,10 @@ header{
     font-size: 30px;
     text-align: center;
 }
-
 .agenda{
     position: relative;
     left: 5px;
     border: solid antiquewhite;
-
-    
 }
 .agendalist{
     display: flex;
@@ -122,7 +117,6 @@ header{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
-
 }
 /*Pseudo-class Selector*/
 a:hover{
@@ -140,4 +134,8 @@ a:active{
 /*using Attribute Selector:*/
 [title]{
     color:indianred;
+}
+/*Combining Two Selectors*/
+div .reminder{
+    color:maroon;
 }
