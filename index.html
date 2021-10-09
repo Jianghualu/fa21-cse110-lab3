@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML practice for Sarah</title>
     <link rel="icon" href="photo_for_lab2.jpg">
+    <link rel="stylesheet" href="lab3Part2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Weekly Meeting Notes</h1>
-        <p>October 1st, 2021</p>
+        <p class="date">October 1st, 2021</p>
+        <p class="newdate">October 8th, 2021</p>
     </header>
     <nav>
         <a href="#agenda">Agenda</a>
@@ -22,31 +27,66 @@
     <hr>
     <main>
         <section>
-            <h3>Attendance List:</h3>
-                <span>Sarah</span>
-                <span>Johnson</span>
-                <span>Ben</span>
-                <span>Lydia</span>
-            <h3>Absent:</h3>
-                <span>Jack</span>
-                <span>Cameli</span>
+            <div class= "attendance">
+                <h3>Attendance List:</h3>
+                    <span>Sarah</span>
+                    <span>Johnson</span>
+                    <span>Ben</span>
+                    <span>Lydia</span>
+                <h3>Absent:</h3>
+                <p>Watch the recording!</p>
+                    <span>Jack</span>
+                    <span>Cameli</span>
+            </div>
         </section>
+        <h3>IceBreaking</h3>
+        <div class="game">
+            <div class="game-item">1</div>
+            <div class="game-item">2</div>
+            <div class="game-item">3</div>
+            <div class="game-item">4</div>
+            <div class="game-item">5</div>
+            <div class="game-item">6</div>
+            <div class="game-item">7</div>
+            <div class="game-item">8</div>
+            <div class="game-item">9</div>
+        </div>
         <section>
-            <h2 id="agenda">Agenda</h2>
-        <ul>
-            <li>Getting to know people</li>
-            <li>Questions</li>
-            <li>Job Opportunities!</li>
-            <li>Group Photo</li>
-        </ul>
+            <div class= "agenda" >
+                <h2 id="agenda">Agenda</h2>
+                    <ul class="agendalist"> 
+                        <li>Getting to know people</li>
+                        <li>Questions</li>
+                        <li>Job Opportunities!</li>
+                        <li>Group Photo</li>
+                    </ul>
+            </div>
         </section>
         <div class="intro">
             <h2>Getting to Know you</h2>
-                <ol>
-                    <li>Who you are?</li>
-                    <li>What project?</li>
-                    <li>How long have you join the company?</li>
-                </ol>
+            <ul>
+                <li>
+                  <div>Who you are?</div>
+                  <ul>
+                    <li>Name</li>
+                    <li>Group</li>
+                  </ul>
+                </li>
+                <li>
+                  <div>What project?</div>
+                  <ul>
+                    <li>Brief intro</li>
+                    <li>Goal</li>
+                  </ul>
+                </li>
+                <li>
+                    <div>How long have you join the company?</div>
+                    <ul>
+                      <li>Year</li>
+                      <li>Who is your leader?</li>
+                    </ul>
+                  </li>
+              </ul>
         </div>
         <section>
             <h2 id="question">Question</h2>
@@ -69,13 +109,13 @@
             <details>
                 <summary>Before next Meeting</summary>
                 <p>Bring at least <strong>two ideas</strong> about the project, and give a brief description of it.</p>
-                <p><b>Think outside of the box.</b></p>
+                <p class="quote"><b>Think outside of the box.</b></p>
             </details>
         </section>
         <section>
-            <h2>Group Photo time!</h2>
+            <h2 title="photo">Group Photo time!</h2>
             <img src="photo_for_lab2.jpg" alt="group_photo">
-            <p>Meeting recording:</p>
+            <p class="recording">Meeting recording:</p>
             <audio controls>
                 <source src="audio_only.mp3" type="audio/mp3">      
             </audio>
