@@ -22,6 +22,10 @@ li li{
 p ~ span{
     color:indianred;
 }
+/*Adjacent sibling combinator*/
+h1+p{
+    color:indianred;
+}
 .intro{
     border-style: dotted;
     border-color: cadetblue;
