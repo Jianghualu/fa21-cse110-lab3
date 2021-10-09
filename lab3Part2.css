@@ -36,6 +36,7 @@ p ~ span{
     padding-right: 1em ;
     padding-top: 1ex;
     padding-bottom: 1ex;
+
     height: 2.5in;
     width: 5in;
 }
@@ -50,6 +51,7 @@ header{
 .newdate{
     text-align: right;
 }
+
 /*ID Selector*/
 #job{
     color:rgb(88,40,23);
@@ -80,6 +82,7 @@ header{
     color:salmon;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
 .game{
     display:grid;
     grid-row-gap: 10px;
@@ -99,6 +102,7 @@ header{
     position: relative;
     left: 5px;
     border: solid antiquewhite;
+
     
 }
 .agendalist{
@@ -127,11 +131,9 @@ a:active{
     div.agenda{
         display: none;
     }
+
 }
 /*using Attribute Selector:*/
 [title]{
     color:indianred;
 }
-
-
-
